@@ -5,7 +5,7 @@ config:
       branch: main
       repo: https://github.com/CMCC-Foundation/ml-tropical-cyclones-detection
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/2.0.0
+      branch: feature/fair-epos-prototype
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
 environment:
   JPL_DOCKERFORCEBUILD: enabled
@@ -15,28 +15,28 @@ sqa_criteria:
     repos:
       github.com/CMCC-Foundation/ml-tropical-cyclones-detection git:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-olive-olm.sh
-        container: qc.acc_chewy-cyan-markhor
+        - /usr/bin/env sh .sqa/script.gamy-jade-cougar.sh
+        container: qc.acc_sleepy-orchid-cassowary
   QC.Doc:
     repos:
       github.com/CMCC-Foundation/ml-tropical-cyclones-detection find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-jade-uakari.sh
-        container: qc.doc_droopy-bistre-magpie
+        - /usr/bin/env sh .sqa/script.boozy-ochre-sloth.sh
+        container: qc.doc_homey-olive-hippopotamus
       github.com/CMCC-Foundation/ml-tropical-cyclones-detection git:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-rose-dingo.sh
-        container: qc.doc_hazy-lemon-uguisu
+        - /usr/bin/env sh .sqa/script.flaky-smalt-rabbit.sh
+        container: qc.doc_messy-cream-avocet
   QC.Lic:
     repos:
       github.com/CMCC-Foundation/ml-tropical-cyclones-detection licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-apricot-mongoose.sh
-        container: qc.lic_zippy-saffron-elephant
+        - /usr/bin/env sh .sqa/script.cheeky-heliotrope-numbat.sh
+        container: qc.lic_hilly-green-bird
   QC.Ver:
     repos:
       github.com/CMCC-Foundation/ml-tropical-cyclones-detection get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-orange-warthog.sh
-        container: qc.ver_frumpy-lilac-chameleon
+        - /usr/bin/env sh .sqa/script.queasy-jade-whale.sh
+        container: qc.ver_wiggy-tomato-warthog
 timeout: 5400
