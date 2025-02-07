@@ -5,5 +5,5 @@
 
 (
 cd github.com/CMCC-Foundation/ml-tropical-cyclones-detection &&
-    licensee detect . --confidence 60 --json
+    licensee detect . --confidence 60 --json 
 )

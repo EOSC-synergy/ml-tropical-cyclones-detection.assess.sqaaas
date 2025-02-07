@@ -5,5 +5,5 @@
 
 (
 cd github.com/CMCC-Foundation/ml-tropical-cyclones-detection &&
-    git rev-parse --is-inside-work-tree
+    git rev-parse --is-inside-work-tree 
 )

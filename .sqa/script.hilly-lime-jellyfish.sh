@@ -5,5 +5,5 @@
 
 (
 cd github.com/CMCC-Foundation/ml-tropical-cyclones-detection &&
-    bandit -f json --quiet  --confidence-level high --severity-level high --recursive .
+    mdl --json  .
 )
