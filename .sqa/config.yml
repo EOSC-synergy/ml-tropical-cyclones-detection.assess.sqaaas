@@ -15,50 +15,50 @@ sqa_criteria:
     repos:
       github.com/CMCC-Foundation/ml-tropical-cyclones-detection git:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-ecru-chicken.sh
-        container: qc.acc_crabby-buff-iguana
+        - /usr/bin/env sh .sqa/script.squeaky-taupe-flamingo.sh
+        container: qc.acc_scummy-malachite-okapi
   QC.Doc:
     repos:
       github.com/CMCC-Foundation/ml-tropical-cyclones-detection find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-lavender-gopher.sh
-        container: qc.doc_pretty-heliotrope-zebra
+        - /usr/bin/env sh .sqa/script.fuzzy-magenta-lionfish.sh
+        container: qc.doc_lovely-gamboge-coati
       github.com/CMCC-Foundation/ml-tropical-cyclones-detection git:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-dandelion-centipede.sh
-        container: qc.doc_paltry-corn-warthog
+        - /usr/bin/env sh .sqa/script.lanky-mauve-sloth.sh
+        container: qc.doc_geeky-magnolia-bombay
       github.com/CMCC-Foundation/ml-tropical-cyclones-detection markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.hilly-lime-jellyfish.sh
-        container: qc.doc_bumpy-ochre-crab
+        - /usr/bin/env sh .sqa/script.lumpy-gold-mongrel.sh
+        container: qc.doc_homely-pink-horse
   QC.Lic:
     repos:
       github.com/CMCC-Foundation/ml-tropical-cyclones-detection licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-puce-magpie.sh
-        container: qc.lic_messy-persimmon-fousek
+        - /usr/bin/env sh .sqa/script.snazzy-cyan-slug.sh
+        container: qc.lic_freaky-turquoise-civet
   QC.Sec:
     repos:
       github.com/CMCC-Foundation/ml-tropical-cyclones-detection bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-maroon-buffalo.sh
-        container: qc.sec_squeaky-yellow-jackal
+        - /usr/bin/env sh .sqa/script.lousy-sapphire-lobster.sh
+        container: qc.sec_snappy-grey-dalmatian
   QC.Sty:
     repos:
       github.com/CMCC-Foundation/ml-tropical-cyclones-detection flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-platinum-ibis.sh
-        container: qc.sty_sickly-flax-harrier
+        - /usr/bin/env sh .sqa/script.beady-heliotrope-saola.sh
+        container: qc.sty_randy-indigo-cassowary
   QC.Uni:
     repos:
       github.com/CMCC-Foundation/ml-tropical-cyclones-detection pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-seashell-horse.sh
-        container: qc.uni_scummy-harlequin-hyena
+        - /usr/bin/env sh .sqa/script.skinny-amaranth-turkey.sh
+        container: qc.uni_cheeky-champagne-stingray
   QC.Ver:
     repos:
       github.com/CMCC-Foundation/ml-tropical-cyclones-detection get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-magnolia-baboon.sh
-        container: qc.ver_hilly-eggplant-cuttlefish
+        - /usr/bin/env sh .sqa/script.ugly-burgundy-newfoundland.sh
+        container: qc.ver_sunny-alizarin-eagle
 timeout: 5400
